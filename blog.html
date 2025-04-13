@@ -1,10 +1,475 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blog</title>
+    <link rel="icon" type="image/jpg" href="/favicon.jpg">
 </head>
 <body>
-<h1>Ini adalah blog</h1>
+<h1>Materi HTML</h1><br>
+<a href="#attribute">HTML Attribute</a><br>
+<a href="#heading">HTML Heading</a><br>
+<a href="#paragraph">HTML Paragraph</a><br>
+<a href="#styles">HTML Styles</a><br>
+<a href="#formatting">HTML Formatting</a><br>
+<a href="#quotation">HTML Quotation</a><br>
+<a href="#comment">HTML Comment Tag</a><br>
+<a href="#colors">HTML Colors</a><br>
+<a href="#css">HTML CSS</a><br>
+<a href="#links">HTML Links</a><br>
+<a href="#images">HTML Images</a><br>
+<a href="#favicon">HTML Favicon</a><br>
+<a href="#title">HTML Page Title</a><br>
+<a href="#tables">HTML Tables</a><br>
+
+<section id="attribute">
+    <h2>Attribute HTML</h2>
+    <p>Attribute a href (link):
+        &lt;a href="https://pnb.ac.id"&gt;Web PNB&lt;/a&gt;
+        menjadi link seperti ini: <a href="https://pnb.ac.id">Web PNB</a>
+    </p>
+
+    <p>Attribute src (image):
+        &lt;img src="/logo-pnb.png"&gt;
+        menjadi gambar seperti ini: <img src="/logo-pnb.png" width="50" height="50" alt="Logo PNB">
+
+    <p>Attribute style (style):
+        &lt;p style="color: red"&gt;Teks ini berwarna merah&lt;/p&gt;
+        menjadi teks seperti ini:
+    <p style="color: red">Teks ini berwarna merah</p>
+
+    <p>Attribute lang (language):
+        &lt;html lang="id"&gt;
+        menjadi teks seperti ini:
+        <html lang="id">Teks ini berbahasa Indonesia</html>
+</section>
+
+<section id="heading">
+    <h2>Heading HTML</h2>
+    <p>Heading 1: &lt;h1&gt;Judul&lt;/h1&gt; menjadi:
+    <h1>Judul</h1>
+    <p>Heading 2: &lt;h2&gt;Sub Judul&lt;/h2&gt; menjadi
+    <h2>Sub Judul</h2>
+    <p>Heading 3: &lt;h3&gt;Sub Sub&lt;/h3&gt; menjadi
+    <h3>Sub Sub</h3>
+</section>
+
+<section id="paragraph">
+    <h2>Paragraph HTML</h2>
+    <p>Paragraph 1: &lt;p&gt;Teks ini adalah paragraf pertama&lt;/p&gt; menjadi:
+    <p>Teks ini adalah paragraf pertama</p>
+    <p>Paragraph 2: &lt;p&gt;Teks ini adalah paragraf kedua&lt;/p&gt; menjadi:
+    <p>Teks ini adalah paragraf kedua</p>
+    <p>Paragraph 3: &lt;p&gt;Teks ini adalah paragraf ketiga&lt;/p&gt; menjadi:
+    <p>Teks ini adalah paragraf ketiga</p>
+
+    <p>Paragraph 4: &lt;pre&gt;Teks ini adalah paragraf keempat&lt;/pre&gt; menjadi:
+    <pre>Teks ini adalah paragraf keempat</pre>
+    <p>Paragraph 5: &lt;pre&gt;Teks ini adalah paragraf kelima&lt;/pre&gt; menjadi:
+    <pre>Teks ini adalah paragraf kelima</pre>
+</section>
+
+<section id="styles">
+    <h2>Styles HTML</h2>
+    <p>Background color: &lt;p style="background-color: red"&gt;Teks ini memiliki background merah&lt;/p&gt; menjadi:
+    <p style="background-color: red">Teks ini memiliki background merah</p>
+    </p>
+    <p>Text color: &lt;p style="color: blue"&gt;Teks ini berwarna biru&lt;/p&gt; menjadi:
+    <p style="color: blue">Teks ini berwarna biru</p>
+    </p>
+    <p>Font: &lt;p style="font-family: Arial"&gt;Teks ini menggunakan font Arial&lt;/p&gt; menjadi:
+    <p style="font-family: Arial">Teks ini menggunakan font Arial</p>
+    </p>
+    <p>Font size: &lt;p style="font-size: 20px"&gt;Teks ini berukuran 20px&lt;/p&gt; menjadi:
+    <p style="font-size: 20px">Teks ini berukuran 20px</p>
+    </p>
+    <p>Text alignment: &lt;p style="text-align: center"&gt;Teks ini berada di tengah&lt;/p&gt; menjadi:
+    <p style="text-align: center">Teks ini berada di tengah</p>
+    </p>
+</section>
+
+<section id="formatting">
+    <h2>Formatting HTML</h2>
+    <p>Bold text: &lt;b&gt;Teks ini tebal&lt;/b&gt; menjadi: <b>Teks ini tebal</b></p>
+    <p>Important text: &lt;strong&gt;Teks ini penting&lt;/strong&gt; menjadi: <strong>Teks ini penting</strong></p>
+    <p>Italic text: &lt;i&gt;Teks ini miring&lt;/i&gt; menjadi: <i>Teks ini miring</i></p>
+    <p>Emphasized text: &lt;em&gt;Teks ini ditekankan&lt;/em&gt; menjadi: <em>Teks ini ditekankan</em></p>
+    <p>Marked text: &lt;mark&gt;Teks ini ditandai&lt;/mark&gt; menjadi:
+        <mark>Teks ini ditandai</mark>
+    </p>
+    <p>Smaller text: &lt;small&gt;Teks ini lebih kecil&lt;/small&gt; menjadi: <small>Teks ini lebih kecil</small></p>
+    <p>Deleted text: &lt;del&gt;Teks ini dihapus&lt;/del&gt; menjadi:
+        <del>Teks ini dihapus</del>
+    </p>
+    <p>Inserted text: &lt;ins&gt;Teks ini disisipkan&lt;/ins&gt; menjadi:
+        <ins>Teks ini disisipkan</ins>
+    </p>
+    <p>Subscript text: &lt;sub&gt;Teks ini subscript&lt;/sub&gt; menjadi: <sub>Teks ini subscript</sub></p>
+    <p>Superscript text: &lt;sup&gt;Teks ini superscript&lt;/sup&gt; menjadi: <sup>Teks ini superscript</sup></p>
+</section>
+
+<section id="quotation">
+    <h2>Quotation HTML</h2>
+    <!--    <blockquote>,<q>, <abbr>, <address>, <cite>, and <bdo>-->
+    <p>Blockquote: &lt;blockquote&gt;Teks ini adalah kutipan&lt;/blockquote&gt; menjadi:
+    <blockquote>Teks ini adalah kutipan</blockquote>
+    </p>
+    <p>Quote: &lt;q&gt;Teks ini adalah kutipan&lt;/q&gt; menjadi:
+        <q>Teks ini adalah kutipan</q>
+    </p>
+    <p>Abbreviation: &lt;abbr title="HTML"&gt;HTML&lt;/abbr&gt; menjadi:
+        <abbr title="HTML">HTML</abbr>
+    </p>
+    <p>Address: &lt;address&gt;Teks ini adalah alamat&lt;/address&gt; menjadi:
+    <address>Teks ini adalah alamat</address>
+    </p>
+    <p>Cite: &lt;cite&gt;Teks ini adalah kutipan&lt;/cite&gt; menjadi:
+        <cite>Teks ini adalah kutipan</cite>
+    </p>
+    <p>Bidirectional override: &lt;bdo dir="rtl"&gt;Teks ini ditulis dari kanan ke kiri&lt;/bdo&gt; menjadi:
+    </p>
+    <bdo dir="rtl">Teks ini ditulis dari kanan ke kiri</bdo>
+</section>
+
+<section id="comment">
+    <h2>Comment HTML</h2>
+    <p>Comment: &lt;!-- Teks ini adalah komentar --&gt; menjadi:
+        <!-- Teks ini adalah komentar -->
+    </p>
+    <p>Comment in paragraph: &lt;p&gt;Teks ini adalah paragraf pertama&lt;!-- Teks ini adalah komentar --&gt;&lt;/p&gt;
+        menjadi:
+    <p>Teks ini adalah paragraf pertama<!-- Teks ini adalah komentar --></p>
+    </p>
+</section>
+
+<section id="colors">
+    <h2>Colors HTML</h2>
+    <!--    RGB, HEX, HSL, RGBA, or HSLA values.-->
+    <p>RGB: &lt;p style="color: rgb(255, 0, 0)"&gt;Teks ini berwarna merah&lt;/p&gt; menjadi:
+    <p style="color: rgb(255, 0, 0)">Teks ini berwarna merah</p>
+    </p>
+    <p>HEX: &lt;p style="color: #50b324"&gt;Teks ini berwarna hijau&lt;/p&gt; menjadi:
+    <p style="color: #50b324">Teks ini berwarna hijau</p>
+    </p>
+    <p>HSL: &lt;p style="color: hsl(0, 100%, 50%)"&gt;Teks ini berwarna merah&lt;/p&gt; menjadi:
+    <p style="color: hsl(0, 100%, 50%)">Teks ini berwarna merah</p>
+    </p>
+    <p>RGBA: &lt;p style="color: rgba(255, 0, 0, 0.5)"&gt;Teks ini berwarna merah dengan transparansi 50%&lt;/p&gt;
+        menjadi:
+    <p style="color: rgba(255, 0, 0, 0.5)">Teks ini berwarna merah dengan transparansi 50%</p>
+    </p>
+    <p>HSLA: &lt;p style="color: hsla(240, 100%, 50%, 0.5)"&gt;Teks ini berwarna biru dengan transparansi 50%&lt;/p&gt;
+        menjadi:
+    <p style="color: hsla(240, 100%, 50%, 0.5)">Teks ini berwarna biru dengan transparansi 50%</p>
+    </p>
+    <p>Border color: &lt;p style="border: 2px solid #ff0000; padding: 10px;"&gt;Teks ini memiliki border merah&lt;/p&gt;
+        menjadi:
+    <p style="border: 2px solid #ff0000; padding: 10px;">Teks ini memiliki border merah</p>
+    </p>
+    <p>Background color: &lt;p style="background-color: #ffff00; padding: 10px;"&gt;Teks ini memiliki background kuning&lt;/p&gt;
+        menjadi:
+    <p style="background-color: #ffff00; padding: 10px;">Teks ini memiliki background kuning</p>
+    </p>
+</section>
+
+<section id="css">
+    <h2>CSS HTML</h2>
+    <p>CSS dapat ditambahkan ke dalam HTML dengan 3 cara:</p>
+
+    <h3>1. Inline CSS</h3>
+    <p>Contoh: &lt;p style="color: red; font-size: 18px;"&gt;Teks dengan inline CSS&lt;/p&gt; menjadi:</p>
+    <p style="color: red; font-size: 18px;">Teks dengan inline CSS</p>
+
+    <h3>2. Internal CSS</h3>
+    <p>Contoh:</p>
+    <pre>
+&lt;head&gt;
+  &lt;style&gt;
+    .styled-text {
+      color: blue;
+      background-color: lightyellow;
+      padding: 5px;
+      border: 1px solid navy;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p class="styled-text"&gt;Teks dengan internal CSS&lt;/p&gt;
+&lt;/body&gt;
+    </pre>
+    <p>Hasilnya akan menjadi seperti ini:</p>
+    <p style="color: blue; background-color: lightyellow; padding: 5px; border: 1px solid navy;">Teks dengan internal
+        CSS</p>
+
+    <h3>3. External CSS</h3>
+    <p>Contoh:</p>
+    <pre>
+&lt;head&gt;
+  &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+    </pre>
+    <p>Dimana file styles.css berisi:</p>
+    <pre>
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: navy;
+  border-bottom: 2px solid #ccc;
+}
+
+.container {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+}
+    </pre>
+
+    <h3>CSS Selectors</h3>
+    <p>Contoh selectors:</p>
+    <ul>
+        <li>Element selector: <code>p { color: red; }</code></li>
+        <li>ID selector: <code>#header { background-color: black; }</code></li>
+        <li>Class selector: <code>.highlight { background-color: yellow; }</code></li>
+        <li>Attribute selector: <code>a[target="_blank"] { color: orange; }</code></li>
+        <li>Pseudo-class: <code>button:hover { background-color: lightblue; }</code></li>
+    </ul>
+
+    <h3>Contoh Box Model</h3>
+    <div style="
+      width: 200px;
+      height: 100px;
+      padding: 20px;
+      border: 5px solid blue;
+      margin: 20px;
+      background-color: lightblue;
+      text-align: center;
+    ">
+        Box dengan padding, border, dan margin
+    </div>
+</section>
+
+<section id="links">
+    <h2>HTML Links</h2>
+    <p>Link dasar: &lt;a href="https://www.example.com"&gt;Kunjungi Example.com&lt;/a&gt; menjadi:
+        <a href="https://www.example.com">Kunjungi Example.com</a>
+    </p>
+
+    <p>Link dengan atribut target: &lt;a href="https://www.google.com" target="_blank"&gt;Buka Google di tab baru&lt;/a&gt;
+        menjadi:
+        <a href="https://www.google.com" target="_blank">Buka Google di tab baru</a>
+    </p>
+
+    <p>Link ke halaman di website yang sama: &lt;a href="index.html"&gt;Kembali ke Beranda&lt;/a&gt; menjadi:
+        <a href="index.html">Kembali ke Beranda</a>
+    </p>
+
+    <p>Link ke bagian di halaman yang sama: &lt;a href="#css"&gt;Lihat CSS HTML&lt;/a&gt; menjadi:
+        <a href="#css">Lihat CSS HTML</a>
+    </p>
+
+    <p>Link email: &lt;a href="mailto:contoh@email.com"&gt;Kirim email&lt;/a&gt; menjadi:
+        <a href="mailto:contoh@email.com">Kirim email</a>
+    </p>
+
+    <p>Link telepon: &lt;a href="tel:+6281234567890"&gt;Hubungi kami&lt;/a&gt; menjadi:
+        <a href="tel:+6281234567890">Hubungi kami</a>
+    </p>
+
+    <p>Link dengan judul: &lt;a href="https://www.example.com" title="Kunjungi Example"&gt;Example.com&lt;/a&gt;
+        menjadi:
+        <a href="https://www.example.com" title="Kunjungi Example">Example.com</a> (hover untuk melihat judul)
+    </p>
+
+    <p>Link dengan gambar: &lt;a href="https://pnb.ac.id"&gt;&lt;img src="/logo-pnb.png" alt="Logo PNB" width="50"
+        height="50"&gt;&lt;/a&gt; menjadi:
+        <a href="https://pnb.ac.id"><img src="/logo-pnb.png" alt="Logo PNB" width="50" height="50"></a>
+    </p>
+
+    <p>Link dengan style: &lt;a href="https://www.example.com" style="color: green; text-decoration: none; font-weight:
+        bold;"&gt;Link berwarna hijau tanpa garis bawah&lt;/a&gt; menjadi:
+        <a href="https://www.example.com" style="color: green; text-decoration: none; font-weight: bold;">Link berwarna
+            hijau tanpa garis bawah</a>
+    </p>
+
+    <p>Link dengan tombol: &lt;button onclick="window.location.href='https://www.example.com'"&gt;Kunjungi Example&lt;/button&gt;
+        menjadi:
+        <button onclick="window.location.href='https://www.example.com'">Kunjungi Example</button>
+</section>
+
+<section id="images">
+    <h2>HTML Images</h2>
+    <p>Gambar dengan caption: &lt;figure&gt;&lt;img src="/logo-pnb.png"&gt;&lt;figcaption&gt;Logo PNB&lt;/figcaption&gt;&lt;/figure&gt;
+        menjadi:
+        <figure><img src="/logo-pnb.png"><figcaption>Logo PNB</figcaption></figure>
+    </p>
+</section>
+
+<section id="favicon">
+    <h2>HTML Favicon</h2>
+    <p>Favicon berguna untuk menggantikan icon di tab browser. Favicon biasanya berupa gambar kecil yang ditampilkan di sebelah judul halaman web.</p>
+    <p>Favicon: &lt;link rel="icon" href="/favicon.ico"&gt;
+        <link rel="icon" href="/favicon.ico">
+    </p>
+    <p>Favicon dengan ukuran: &lt;link rel="icon" href="/favicon.ico" sizes="32x32"&gt;
+        <link rel="icon" href="/favicon.ico" sizes="32x32">
+    </p>
+</section>
+
+<section id="title">
+    <h2>HTML Page Title</h2>
+    <p>
+        Judul halaman ditentukan dengan tag &lt;title&gt; di dalam tag &lt;head&gt;.
+        Judul ini akan muncul di tab browser dan juga sebagai judul halaman saat dibagikan.</p>
+    <p>Judul halaman: &lt;title&gt;Judul Halaman&lt;/title&gt;
+    </p>
+</section>
+
+<section id="tables">
+    <h2>HTML Tables</h2>
+
+    <h3>Tabel Dasar</h3>
+    <p>Struktur dasar tabel HTML: &lt;table&gt;, &lt;tr&gt;, &lt;th&gt;, dan &lt;td&gt;</p>
+
+    <table border="1" style="border-collapse: collapse; width: 80%;">
+        <tr>
+            <th>Nama</th>
+            <th>Usia</th>
+            <th>Pekerjaan</th>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>25</td>
+            <td>Programmer</td>
+        </tr>
+        <tr>
+            <td>Ani</td>
+            <td>23</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Dodi</td>
+            <td>27</td>
+            <td>Marketing</td>
+        </tr>
+    </table>
+
+    <p>Kode:</p>
+    <pre>
+&lt;table border="1" style="border-collapse: collapse; width: 80%;"&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Nama&lt;/th&gt;
+        &lt;th&gt;Usia&lt;/th&gt;
+        &lt;th&gt;Pekerjaan&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Budi&lt;/td&gt;
+        &lt;td&gt;25&lt;/td&gt;
+        &lt;td&gt;Programmer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Ani&lt;/td&gt;
+        &lt;td&gt;23&lt;/td&gt;
+        &lt;td&gt;Designer&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Dodi&lt;/td&gt;
+        &lt;td&gt;27&lt;/td&gt;
+        &lt;td&gt;Marketing&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+
+    <h3>Tabel dengan Caption</h3>
+    <table border="1" style="border-collapse: collapse; width: 80%;">
+        <caption>Data Karyawan</caption>
+        <tr>
+            <th>Nama</th>
+            <th>Usia</th>
+            <th>Pekerjaan</th>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>25</td>
+            <td>Programmer</td>
+        </tr>
+    </table>
+
+    <h3>Tabel dengan Header, Body, dan Footer</h3>
+    <table border="1" style="border-collapse: collapse; width: 80%;">
+        <thead style="background-color: #f2f2f2;">
+            <tr>
+                <th>Produk</th>
+                <th>Harga</th>
+                <th>Stok</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptop</td>
+                <td>Rp 10.000.000</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>HP</td>
+                <td>Rp 5.000.000</td>
+                <td>25</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: #f2f2f2;">
+            <tr>
+                <td colspan="2">Total Stok:</td>
+                <td>40</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h3>Tabel dengan Colspan dan Rowspan</h3>
+    <table border="1" style="border-collapse: collapse; width: 80%;">
+        <tr>
+            <th colspan="2">Nama Lengkap</th>
+            <th>Usia</th>
+        </tr>
+        <tr>
+            <td>Budi</td>
+            <td>Santoso</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Andi</td>
+            <td>Wijaya</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Saputra</td>
+            <td>23</td>
+        </tr>
+    </table>
+
+    <h3>Tabel dengan Styling</h3>
+    <table style="width: 80%; border-collapse: collapse; margin: 20px 0;">
+        <tr style="background-color: #4CAF50; color: white;">
+            <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Nama</th>
+            <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Usia</th>
+            <th style="padding: 10px; text-align: left; border: 1px solid #ddd;">Pekerjaan</th>
+        </tr>
+        <tr style="background-color: #f2f2f2;">
+            <td style="padding: 10px; text-align: left; border: 1px solid #ddd;">Budi</td>
+            <td style="padding: 10px; text-align: left; border: 1px solid #ddd;">25</td>
+            <td style="padding: 10px; text-align: left; border: 1px solid #ddd;">Programmer</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; text-align: left; border: 1px solid #ddd;">Ani</td>
+            <td style="padding: 10px; text-align: left; border: 1px solid #ddd;">23</td>
+            <td style="padding: 10px; text-align: left; border: 1px solid #ddd;">Designer</td>
+        </tr>
+    </table>
+</section>
+
 </body>
 </html>
